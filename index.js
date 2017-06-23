@@ -16,8 +16,6 @@
 //     }
 // ],
 //
-// When you attempt to add a device, it will ask for a "PIN code".
-// The default code for all HomeBridge accessories is 031-45-154.
 
 /*
 // The value property of SecuritySystemCurrentState must be one of the following:
@@ -117,7 +115,7 @@ MqttAlarmAccessory.prototype.getAlarmTargetState = function(callback) {
 };
 
 MqttAlarmAccessory.prototype.setAlarmTargetState = function(status, callback) {
-    this.log("setDoorTargetPosition");
+    this.log("setAlarmTargetState");
     this.CachedAlarmTargetState = status;
 	this.client.publish(this.topicStatusTarget, String(status) ); // send MQTT packet for new state
 	callback();
