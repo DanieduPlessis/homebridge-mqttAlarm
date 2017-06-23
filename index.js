@@ -1,4 +1,4 @@
-// MQTT Garage Accessory plugin for HomeBridge
+// MQTT Alarm Accessory plugin for HomeBridge
 //
 // Remember to add accessory to config.json. Example:
 // "accessories": [

@@ -1,2 +1,2 @@
-# homebridge-mqttgaragedoor
-Homebridge plugin for Garagedoor opener connected via MQTT
+# homebridge-mqttalarm
+Homebridge plugin for Alarm connected via MQTT
