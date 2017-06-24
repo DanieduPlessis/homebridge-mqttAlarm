@@ -1,6 +1,6 @@
 # homebridge-mqttalarm
 
-Homebridge plugin for Alarm connected via MQTT
+Homebridge plugin for Alarm connected via MQTT, this is not working 100%, still developing
 
 # Installation
 
@@ -23,7 +23,7 @@ Configuration sample:
 // 			  "caption": "LABEL FOR ALARM",
 // 			  "topics": {
 // 				"statusCurrent": 	"PUT THE MQTT TOPIC FOR THE GETTING THE STATUS OF YOUR SWITCH HERE",
-// 				"statusTarget": 	"PUT THE MQTT TOPIC FOR THE SETTING THE STATUS OF YOUR SWITCH HERE"
+// 				"buttonPress": 	"PUT THE MQTT TOPIC FOR THE SETTING THE STATUS OF YOUR SWITCH HERE"
 // 			  }
 //     }
 // ]
